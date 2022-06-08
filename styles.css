@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;400 & display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+/* aqui começa cabeçalho da pagina */
+.cabecalho {
+    width: 100%; 
+    height: 54px; 
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+.topo { /* TOPO */
+    width: 935px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+ion-icon {
+    font-size: 22px;
+    color: #000000; 
+}
+.instagram {
+    display: flex;
+    align-items: center;
+}
+.risquinho {
+    width: 1px;
+    height: 22px;
+    background-color: #BDBDBD;
+    margin: 16px 10px;
+}
+.instagram img {
+    margin-top: 5px;
+}
+
+.topo img {
+    width: 103px;
+    height: 29px;
+}
+
+.barrapesquisar {
+    width: 215px;
+    height: 28px;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: solid 1px #BDBDBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 214px;
+    color: #979797; 
+    font-size: 12px;
+}
+
+.ionicons-ion-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.menu {
+    width: 148px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.menumobile {
+    display: none;
+}
+
+/* aqui começa o conteúdo da página */
+
+.container { /* bloco inteiro da página (desktop)*/
+    width: 68.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stories {
+    width: 614px;
+    height: 118px;
+    margin-top: 88px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-left: 18px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px #dbdbdb;
+}
+#setinha {
+    right: 5px;
+    top: 43px;
+    position: absolute;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    text-shadow: #262626 solid 1px;
+}
+
+.stories-perfil { /* cada perfil indidualmente */
+    width: 66px;
+    height: 86px;
+    margin: 18px 14px 14px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stories-perfil img {
+    width: 66px;
+    height: 66px;
+    border-radius: 99px;
+    position: absolute;
+    display: flex;
+}
+.stories-perfil .perfil {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    margin:5px;
+}
+.stories-perfil p {
+    font-size: 12px;
+    color: #262626;
+    margin-top: 5px;
+}
+
+
+.feed {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.post { /* aqui é a div padrão das colunas de post */
+    margin-bottom: 60px;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    border: solid 1px #dbdbdb;
+    background-color: #FFFFFF;
+}
+.post img {
+    width: 100%;
+    height: 612px;
+}
+.postcabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    height: 60px;
+    box-sizing: border-box;    
+}
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 99px;
+    margin-right: 15px;
+    
+}
+.perfil p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+}
+.postcabecalho ion-icon {
+    font-size: 16px;
+    color: #262626; 
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 17px 14px 17px;
+    box-sizing: border-box; 
+    height: 76px;
+}
+
+.interacao {
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.icones {
+    width: 93px;
+    display: flex;
+    justify-content: space-around;
+}
+.curtido {
+    padding: 0px 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    box-sizing: border-box;
+}
+.curtido img {
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+}
+
+.curtido p {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.curtido h1 {
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* aqui a sidebard */
+
+.sidebar {
+    width: 293px;
+    height: fit-content;
+    position: sticky;
+    top: 88px;
+    margin-left: 28px;
+}
+
+.caixatroll {
+    width: 100%;
+    height: 56px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.caixatroll img {
+    width: 56px;
+    height: 56px;
+    border-radius: 99px;
+}
+.imagemtroll {
+    width: 56px;
+    height: 56px;
+}
+
+.perfiltroll {
+    width: 100%;
+    height: 34px;
+    margin-left: 17px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.perfiltroll h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+}
+.perfiltroll p {
+    font-size: 14px;
+    font-weight:lighter;
+    color: #8E8E8E;
+    margin-top: 3px;
+}
+
+.caixasugestao { /* caixa inteira das sugestões */
+    margin-top: 24px;
+    width: 100%;
+    height: 256px;
+}
+.sugestao {
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.sugestao P {
+    font-size: 12px;
+    color: #8E8E8E;
+}
+.sugestao h1 {
+    font-size: 12px;
+    color: #262626;
+    font-weight: bold;
+}
+
+.sugestaoseguir {  /* cada linha de sugestao */
+    height: 32px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 16px;
+}
+.sugestaoperfil {
+    display: flex;
+}
+.sugestaoseguir p {
+    font-size: 12px;
+    color: #139EF2; 
+    font-weight: bold;
+}
+.sugestaoperfil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 99px;
+}
+.perfilseguir {
+    margin-left: 11px;
+}
+.perfilseguir h1 {
+    font-size: 14px;
+    color: #262626;
+    font-weight: bold;
+}
+.perfilseguir p {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top: 6px;
+    font-weight:normal;
+}
+
+.menusidebar {
+    margin-top: 35px;
+    height: 74px;
+}
+.menusidebar p {
+    font-size: 11px;
+    line-height: 12px;
+    color: #c7c7c7;
+}
+.menudebaixo {
+    display: none;
+}
+
+/* LAYOUT RESPONSIVO */
+@media (max-width: 935px) {
+.sidebar {
+    display: none;
+}
+
+.container {
+    justify-content: center;
+}
+.container {
+    width: 100%;
+}
+.topo {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100vw;
+}
+}
+
+
+/* mobile */
+
+@media (max-width: 614px) {
+
+.body, .container, .conteudo, .stories, .feed, .topo, .cabecalho {
+        width: 100vw;
+}
+
+.barrapesquisar, .risquinho {
+        display: none;
+}
+
+.stories {
+    background-color: #fafafa;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    border: none;
+    overflow: hidden;
+}
+
+#setinha {
+    display: none;
+}
+.menu {
+    display: none;
+}
+.menumobile {
+    display: unset;
+    width: 22px;
+    height: 22px;
+}
+.logoinstagram {
+    display: unset;
+}
+
+.menudebaixo {
+    width: 100vw;
+    height: 54px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-top: solid 1px #dbdbdb;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+
+.post img {
+    height: auto;
+}
+}
