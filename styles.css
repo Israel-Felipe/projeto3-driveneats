@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #EEE;
+    background-color: #EEE; 
 }
 
 a {
@@ -11,11 +11,26 @@ a {
     color: inherit;
   }
 
-h1 {
+h1 { /* titulos */
     font-family: 'Righteous', cursive;
     font-size: 26px;    
     color: #333;
-    margin: 19px;
+    margin: 27px 0px 17px 20px;
+}
+h2 { /* nome dos itens */
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+p {
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 5px 0px;
+    line-height: 17.5px;
+}
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
 }
 .topo {
     width: 100%;
@@ -24,30 +39,39 @@ h1 {
     padding:15px 21px;
     box-sizing: border-box;
     box-shadow: 0px 2px 5px #575454;
-    margin-bottom: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 .logo {
     font-family: 'Righteous', cursive;
-    font-size: 44px;    
+    font-size: 44px;
     color: white;
 }
 .slogan {
     font-size: 18px;
     color: white;
 }
-
+.primeirotitulo { /* primeiro titulo para deixar margin top */
+    font-family: 'Righteous', cursive;
+    font-size: 26px;    
+    color: #333;
+    margin: 123px 0px 17px 20px;
+}
 .menu {
-    background-color: red;
-    width: auto;
     height: 216px;
+    width: 100%;
     display: inline-flex;
     overflow-x: scroll;
     padding-left: 19px;
 }
+
 .item {
     background-color: white;
     width: 172px;
     height: 100%;
     border-radius: 10px;
     margin-right: 16px;
+    padding: 14px;
+    box-sizing: border-box;
 }
