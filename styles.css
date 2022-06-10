@@ -65,7 +65,7 @@ h3 {
     box-sizing: border-box;
 }
 
-.item {
+.comida1, .comida2, .comida3, .comida4, .bebida1, .bebida2, .bebida3, .bebida4, .sobremesa1, .sobremesa2, .sobremesa3, .sobremesa4   {
     background-color: white;
     width: 172px;
     height: 100%;
@@ -102,4 +102,10 @@ h3 {
     font-size: 20px;
     text-align: center;
     font-weight: 400;
+}
+
+.selecao {
+    border: solid 5px #32b72f;
+    padding: 9px;
+    box-sizing: border-box;
 }
