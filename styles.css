@@ -74,7 +74,27 @@ h3 {
     padding: 14px;
     box-sizing: border-box;
 }
+.linhapreco {
+    width: 150px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.linhapreco h3 {
+    text-align: center;
+}
 
+.icone1, .icone2, .icone3, .icone4, .icone5, .icone6, .icone7, .icone8, .icone9, .icone10, .icone11, .icone12 {
+    width: 19px;
+    height: 19px;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.escondido {
+    display: none;
+}
 .fechamento {
     height: 92px;
     width: 100%;
