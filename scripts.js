@@ -270,6 +270,3 @@ function comida1() {
     const oksobremesa2 = document.querySelector(".icone10");
     oksobremesa2.classList.add("escondido");
   }
-
-
-/* se tantantantan ou trtatantant ou tantanta ou tantantanttnaa $ tantanta ntantantan */
