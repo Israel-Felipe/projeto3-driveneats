@@ -67,7 +67,7 @@ h3 {
     
 }
 
-.comida1, .comida2, .comida3, .comida4, .bebida, .sobremesa  {
+.comida1, .comida2, .comida3, .comida4, .bebida1, .bebida2, .bebida3, .bebida4, .sobremesa1, .sobremesa2, .sobremesa3, .sobremesa4   {
     background-color: white;
     width: 172px;
     height: 100%;
@@ -88,16 +88,15 @@ h3 {
     text-align: center;
 }
 
-.icone {
+.icone1, .icone2, .icone3, .icone4, .icone5, .icone6, .icone7, .icone8, .icone9, .icone10, .icone11, .icone12 {
     width: 19px;
     height: 19px;
     margin-top: 10px;
     margin-right: 5px;
-    display: none;
 
 }
-.ativo {
-    display: initial;
+.escondido {
+    display: none;
 }
 .fechamento {
     height: 92px;
