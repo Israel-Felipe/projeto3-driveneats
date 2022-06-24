@@ -67,7 +67,7 @@ h3 {
     
 }
 
-.comida1, .comida2, .comida3, .comida4, .bebida, .sobremesa  {
+.comida, .bebida, .sobremesa  {
     background-color: white;
     width: 172px;
     height: 100%;
@@ -121,7 +121,7 @@ h3 {
     justify-content: center;
     
 }
-.botaoP {
+.textobotao {
     width: 200px;
     color: white;
     font-size: 20px;
@@ -129,9 +129,10 @@ h3 {
     font-weight: 400;
     line-height: 23px;
 }
+.bold {
+    font-weight: bold;
 
-
-/* ESTILOS PARA INTERACAO EM JAVA */
+}
 .selecao {
     border: solid 5px #32b72f;
     padding: 9px;
@@ -142,6 +143,106 @@ h3 {
     background-color: #32B72F;
 }
 
-.fecharpedidoP {
+
+
+
+.confirmacao {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.confirmacao-container {
+    background-color: #50D074;
+    box-shadow: 0px 0px 10px 1px #a39b9b;
+    border-radius: 9px;
+    width: 377px;
+    margin: 0px 18px;
+}
+
+.telaverde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloconfirmacao p {
     font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+}
+
+.confirmandocomida, .confirmandobebida, .confirmandosobremesa{
+   display: flex;
+   justify-content: space-between;
+   font-style: normal;
+   font-size: 22px;
+   line-height: 26px;
+   color: #FFFFFF;
+   margin-bottom: 13px;
+   margin-left: 25px;
+   margin-right: 25px;
+}
+
+.precototal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.precototal p {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+}
+
+.tudocerto {
+    background: #FFFFFF;
+    border-radius: 100px;
+    width: 329px;
+    height: 52px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+.tudocerto p {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #50D074;
+    justify-self: center;
+}
+
+.cancelar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    Height:52px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.cancelar p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
 }
